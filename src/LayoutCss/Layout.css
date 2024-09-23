@@ -1,0 +1,25 @@
+.navbar{
+    width: 100%;
+    padding: 1rem 2rem;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position : relative;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.points{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.points :hover{
+    background-color: aqua;
+}
+
