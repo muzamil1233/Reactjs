@@ -8,6 +8,8 @@ import UseMemo from "./Components/Hooks/UseMemo";
 import UseReducer from "./Components/Hooks/UseReducer";
 import UseRef from "./Components/Hooks/UseRef";
 import UseState from "./Components/Hooks/UseState";
+import Mock4 from "./Components/interview qns/mock4";
+import MockI4 from "./Components/interview qns/MockI4";
 import Radio from "./Components/interview qns/Radio";
 import A_MapExample from "./Components/Map Filter Reduce Examples/A_MapExample";
 import B_MapTwo from "./Components/Map Filter Reduce Examples/B_MapTwo";
@@ -43,7 +45,9 @@ function App() {
       {/* <UseMemo /> */}
       {/* <UseReducer /> */}
       {/* <Uselayout /> */}
-      <Custom />
+      {/* <Custom /> */}
+      {/* <Mock4 /> */}
+      <MockI4 />
     
     </div>
   );
