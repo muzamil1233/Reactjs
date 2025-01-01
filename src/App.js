@@ -1,5 +1,6 @@
 import "./App.css";
 import Int17 from "./Components/interview qns/Int17";
+import Int9 from "./Components/interview qns/Int9";
 // import A_FetchGet from "./Components/API examples/A_FetchGet";
 // import B_PostRequest from "./Components/API examples/B_PostRequest";
 // import Custom from "./Components/Hooks/Custom";
@@ -50,7 +51,8 @@ function App() {
       {/* <Custom /> */}
       {/* <Mock4 /> */}
       {/* <MockI4 /> */}
-      <Int17 />
+      {/* <Int17 /> */}
+      <Int9 />
     
     </div>
   );
