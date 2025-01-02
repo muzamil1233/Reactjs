@@ -314,4 +314,10 @@ console.log(a === b); // false
 // Default Style: Italicized text (can also be overridden with CSS).
 
 
-In CSS, pseudo-elements are used to style specific parts of an element, or to add content that isn't directly part of the document's HTML. They allow you to apply styles to certain portions of an element or create elements dynamically without altering the actual HTML structure.
+// In CSS, pseudo-elements are used to style specific parts of an element, or to add content that isn't directly part of the document's HTML. They allow you to apply styles to certain portions of an element or create elements dynamically without altering the actual HTML structure.
+
+
+
+//The <figcaption> tag in HTML is used to provide a caption or description for a <figure> element. It enhances accessibility and provides context to the content inside the <figure>, which typically contains images, illustrations, charts, code snippets, or other media.
+
+

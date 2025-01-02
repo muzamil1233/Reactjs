@@ -1,5 +1,5 @@
 //http is hypertext transfer protocol it is used to transfer data from web browser to web server 
-//https is secure http protocol means now noone can easily read the data it also used tls transfer layer protocol
+//https is secure http protocol means now no one can easily read the data it also used tls transfer layer protocol
 // The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data.
 
 // <meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
