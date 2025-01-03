@@ -84,7 +84,11 @@ console.log(d.name)
 // in framework we have inbuilt function we dont need to have dependencies
 // but in library we need some dependencies to a function 
 
-virtual dom is a lightweight copy of real Dom 
-it increases the performance and user experience 
+// virtual dom is a lightweight copy of real Dom 
+// it increases the performance and user experience 
+
+
+
+//fragments in jsx  combines multiple elements together without adding extra element to the Dom
 
 
