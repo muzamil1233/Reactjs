@@ -2,7 +2,7 @@ console.log("5"+3);  // o/p 53 in this 3 will be converted into strings and both
 
 console.log("5"-3);  // o/p 2  in this 5 in string will be coverted into number and it will  be subtracted
 
-console.log("5"== 3);  // o/p 5 will be converted into string  value so it is true  
+console.log("5"== 3);  // o/p false  
 console.log(5 === "3"); // o/p false becuase inthis this it will also check datatype so this datatype is different 
 
 console.log( typeof NaN) // o/p number

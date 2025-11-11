@@ -10,8 +10,7 @@ foo();   // 0/p undefined because we are accesing the variable before initializi
 function outer() {
 
     function inner() {
-    
-    console.log(x)
+     console.log(x)
     
     }
     
@@ -19,12 +18,12 @@ function outer() {
     
     return inner }
     
-    const inner = outer()
+    const data = outer()
     
-    inner()  // o/p 5 due to closure
+    data()  // o/p 5 due to closure
     
     
-    console.log('Start)
+    console.log("Start")
 
 setTimeout(() => {
 

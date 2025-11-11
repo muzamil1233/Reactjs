@@ -3,7 +3,7 @@
 // the reducer hook accepts two arguments 
 // -reducer function 
 // -initial state 
-// and returns current state and dispatch method 
+// and returns current state and dispatch method mm
 
 // the reducer function specifies  how the state gets updated .
 
@@ -41,6 +41,8 @@ const UseReducer = () => {
 }
 
 export default UseReducer
+
+
 
 
 

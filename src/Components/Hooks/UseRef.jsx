@@ -1,4 +1,9 @@
-// useRef hook is a react hook that allow uh to create
+// The useRef Hook allows you to persist values between renders.
+
+// It can be used to store a mutable value that does not cause a re-render when updated.
+
+
+// useRef hook is a react hook that allow uh to create the mutable variables which will not re-render the functional components
 //
 
 // useRef is also used to access DOM elements
@@ -34,6 +39,30 @@ const UseRef = () => {
       <button onClick={btnClicked}>clich here</button>
       
     </div>
+  )
+}
+
+function Example2(){
+  const inputElement=useRef();
+  
+  const getFocus=()=>{
+      inputElement.current.focus();
+  }
+
+  const pTag=useRef();
+  const updateColor=()=>{
+      pTag.current.style.color="teal";
+  }
+  return(
+      <>
+          <input type="text" ref={inputElement} />
+          <button onClick={getFocus}>Focus</button>
+
+          {/* changing color of p tag */}
+          <p ref={pTag}>Hey change my color</p>
+          <button onClick={updateColor}>Change Color</button>
+          <button onClick={()=>pTag.current.style.fontSize="2rem"}>Change Size</button>
+      </>
   )
 }
 
